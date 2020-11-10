@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!--[index.html] /BDE website- v0.1/- 9 janvier 2020 - Developped by Tristan & Jean Baptiste Cristoph -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="Content-Language" content="fr">
+    <meta name="Keywords" content="BDE, campagne BDE, Mines'ssion Impossible, Ismin BDE, BDE 2020, Mines'sssion 2020">
+    <meta name="Description" content="Encore indécis(e) sur la liste à élire pour la campagne BDE ? Tu veux découvrir les activités proposées par la liste durant la campagne? Ou tu veux juste savourer une bonne crêpe directement chez toi? Bienvenue à toi, ami agent ! Ici, tu peux retrouver toutes les infos de nos agents, leurs fiches descriptives, le programme et nos fameuses crêpes qui régalent et jalousent toute la concurrence ! ">
+    <meta name="Author" content="Tristan Lorriaux Jean-Baptiste Cristoph">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--à voir si on garde ça!-->
+    <meta name="theme-color" content="#000000"> 
+
+    <title>Mines'ssion Impossible - Site officiel de la liste BDE ISMIN 2020</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;Raleway:300,400,500,600,700,800,900">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- owl-carousel -->
+    <link rel="stylesheet" type="text/css" href="css/owl-carousel/owl.carousel.css" />
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup/magnific-popup.css" />
+
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsablensive -->
+    <link rel="stylesheet" href="css/Responsablensive.css">
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="css/custom.css" />
+
+
+</head>
+
+<body>
+
+  <!-- chargement -->
+
+  
+  <div id="loading">
+      <div id="loading-center">
+          <img src="images/loder.gif" alt=""> 
+      </div>
+  </div>
+  
+  <!-- chargement fin -->
+
+
+<header id="header-wrap" data-spy="affix" data-offset-top="55">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-default">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right" id="top-menu">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="index.html">La Liste</a></li>
+                            <li><a href="index.html">Les Listeux</a></li>
+                            <li><a href="index.html">Les Projets</a></li>
+                            <li><a href="index.html">Les Sponsors</a></li>
+                            <li><a href="filrouge.html">Fil Rouge</a></li>
+                            <li><a href="photos.html">Photos & Film</a></li>
+                            <li><a id="btnCrepe" href="crepes.html">
+                              <button class="button_cart">
+                              <img src="images/cart.png" class="icon_cart" alt="icone" style="position:relative; z-index:20; margin:0px;width:30px; height:30px; " /><span style="margin-left:10px;">Crêpes</span>
+                              </button></a></li>
+                        </ul>
+                    </div>
+                    <!-- /.fin navbar -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="main-content">
+
+<body>
+<main>
+<section class="iq-breadcrumb overview-block-pt text-center iq-bg iq-bg-fixed iq-over-black-90 iq-box-shadow" style="background: url(images/banner/bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="heading-title iq-breadcrumb-title iq-mtb-100">
+                        <h1 class="title iq-tw-8 iq-font-white"><span>MMM les bonnes crêpes...</span></h1>
+                        <div class="divider white"></div>
+                    </div>
+                <ul class="breadcrumb">
+                    <li><a href="index.html"><i class="ion-home"></i> Home</a></li>
+                    <li class="active">En pleine commande de crêpes</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br> 
+<br>
+
+<section id="contact-us" class="iq-full-contact white-bg">
+    <div class=" iq-pall-40">
+        <h4 class="heading-left iq-tw-6 iq-pb-20">Effectuer sa commande de crêpes (remplir tous les champs)</h4>
+            <div class="row">
+                <div id="formmessage">Success/Error Message Goes Here</div>
+                    <form class="form-horizontal" id="crepesform" method="post" action="orders.php">
+                            <div class="contact-form">
+                                <div class="col-sm-6">
+                                <h5 class="iq-tw-6">INFORMATIONS & GARNITURE</h5>
+                                    <br>
+                                    <div class = "container">
+                                            <div class = "section-field textarea">
+                                                <h5 class="iq-tw-6">MON P'TIT NOM</h5>
+                                                    <div>
+                                                        <textarea class="input-message" name="nom" placeholder="Qui-est tu?"></textarea>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    <br>
+                                    <div class = "container">
+                                            <div class = "section-field textarea">
+                                                <h5 class="iq-tw-6">MON P'TIT 06</h5>
+                                                    <div>
+                                                        <textarea class="input-message" name="tel" placeholder="Quid de ton 06?"></textarea>
+                                                    </div>
+                                            </div>
+                                    </div>
+                                    <br>
+                                    <div class= "container">
+                                        <p>Dans ma crêpe je veux : </p>
+                                        <input type="radio" name="ingredient" id="nature" value="Nature"/>
+                                        <label for="nature">Nature</label>
+                                        <input type="radio" name="ingredient" id="sucre" value="Sucre"/>
+                                        <label for="sucre">Sucre</label>
+                                        <input type="radio" name="ingredient" id="nutella" value="Nutella" />
+                                        <label for="nutella">Nutella</label>
+                                        <input type="radio" name="ingredient" id="confiturefraise" value="Confiture Fraise" />
+                                        <label for="confiture Fraise">Confiture Fraise</label>
+                                        <input type="radio" name="ingredient" id="confitureabricot" value="Confiture Abricot" />
+                                        <label for="confiture Abricot">Confiture Abricot</label>
+                                        <input type="radio" name="ingredient" id="confiturefr" value="Confiture Fruits Rouge" />
+                                        <label for="confiture Fruits Rouge">Confiture Fruits Rouges</label>
+                                        <input type="radio" name="ingredient" id="chantilly" value="Chantilly" />
+                                        <label for="chantilly">Chantilly</label>
+                                        <!-- <input type="radio" name="ingredient" id="secret"  value="Secret"/>
+                                        <label for="secret">Ingrédient Secret</label> -->
+                                    </div>
+                                    <br>
+                                    <div class = "container">
+                                        <div class = "section-field textarea">
+                                            <h5 class="iq-tw-6">HORAIRE</h5>
+                                            <div>
+                                            <label for="horaire">Quand veux-tu être livré ?</label>
+                                            <select name="horaire" id="horaire">
+                                            <option value="ASAP" selected>ASAP</option>
+                                            <option value="00h00">00h00</option>
+                                            <option value="00h30">00h30</option>
+                                            <option value="01h00">01h00</option>
+                                            <option value="01h30">01h30</option>
+                                            <option value="02h00">02h00</option>
+                                            <option value="02h30">02h30</option>
+                                            <option value="03h00">03h00</option>
+                                            <option value="03h30">03h30</option>
+                                            <option value="04h00">04h00</option>
+                                            <option value="04h30">04h30</option>
+                                            <option value="05h00">05h00</option>
+                                            <option value="05h30">05h30</option>
+                                            <option value="06h00">06h00</option>
+                                            <option value="06h30">06h30</option>
+                                            <option value="07h00">07h00</option>
+                                            <option value="07h30">07h30</option>
+                                            <option value="08h00">08h00</option>
+                                            <option value="08h30">08h30</option>
+                                            <option value="09h00">09h00</option>
+                                            <option value="09h30">09h30</option>
+                                            <option value="10h00">10h00</option>
+                                            <option value="10h30">10h30</option>
+                                            <option value="11h00">11h00</option>
+                                            <option value="11h30">11h30</option>
+                                            <option value="12h00">12h00</option>
+                                            <option value="12h30">12h30</option>
+                                            <option value="13h00">13h00</option>
+                                            <option value="13h30">13h30</option>
+                                            <option value="14h00">14h00</option>
+                                            <option value="14h30">14h30</option>
+                                            <option value="15h00">15h00</option>
+                                            <option value="15h30">15h30</option>
+                                            <option value="16h00">16h00</option>
+                                            <option value="16h30">16h30</option>
+                                            <option value="17h00">17h00</option>
+                                            <option value="17h30">17h30</option>
+                                            <option value="18h00">18h00</option>
+                                            <option value="18h30">18h30</option>
+                                            <option value="19h00">19h00</option>
+                                            <option value="19h30">19h30</option>
+                                            <option value="20h00">20h00</option>
+                                            <option value="20h30">20h30</option>
+                                            <option value="21h00">21h00</option>
+                                            <option value="21h30">21h30</option>
+                                            <option value="22h00">22h00</option>
+                                            <option value="22h30">22h30</option>
+                                            <option value="23h00">23h00</option>
+                                            <option value="23h30">23h30</option>
+                                            <option value="aléatoire">A un moment totalement aléatoire</option>
+                                            </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class = "container">
+                                        <div class = "section-field textarea">
+                                        <h5 class="iq-tw-6">LIEU & NOMBRE DE CRÊPES</h5>
+                                            <div>
+                                                <textarea class="input-message" name="lieu" placeholder="Où veux-tu être livré ? Combien de crêpes veux-tu?"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <button id="submit" name="submit" type="submit" value="Send" class="button pull-right iq-mt-40">Commander</button>
+                                </div>
+                            </div>
+    </form>
+</main>
+
+<br>
+
+<!-- Footer -->
+
+<footer class="iq-footer-03 white-bg iq-ptb-20">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="footer-copyright iq-pt-10">
+                  <h5>SERVICES</h5>
+                  <ul>
+                <li>Crêpes</li>
+                <li>Activités</li>
+                <li>Repas</li>
+                <li>Soirées</li>
+                </ul>
+                <br>Minesssionimpossible.fr - © Mines'ssion Impossible 2019-2020 developped by <a target="_blank" href="https://www.facebook.com/profile.php?id=100012867972723">Tristan Lorriaux</a>.<img src="images/logo.png" alt="logo" width="100"></div>
+            </div>
+            <div class="col-sm-6">
+              <h5>BESOIN D'AIDE ?</h5>  
+                <ul>
+                    <li><a href=""><p>Nous contacter</p></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!--  END -->
+
+</div>
+
+<!-- Retour en haut -->
+
+<div id="back-to-top">
+    <a class="top" id="top" href="#top"> <i class="ion-ios-upload-outline"></i> </a>
+</div>
+
+<!-- Retour en haut fin-->
+
+<!-- Scripts JS-->
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- owl-carousel -->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- Counter -->
+    <script src="js/counter/jquery.countTo.js"></script>
+
+    <!-- Jquery Appear -->
+    <script src="js/jquery.appear.js"></script>
+
+    <!-- Magnific Popup --> 
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Retina -->
+    <script src="js/retina.min.js"></script>
+
+    <!-- wow -->
+    <script src="js/wow.min.js"></script>
+
+    <!-- Skrollr --> 
+    <script src="js/skrollr.min.js"></script>
+
+    <!-- Countdown -->
+    <script src="js/jquery.countdown.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
